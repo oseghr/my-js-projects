@@ -1,0 +1,28 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn {
+    padding: 20px;
+    cursor: pointer;
+    border: 3px solid whitesmoke;
+    border-radius: 12px;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    opacity: 0.6;
+}
+
+.btn:hover {
+    opacity: 100%;
+    background-color: black;
+    color:white;
+    padding: 22px;
+
+}
+
