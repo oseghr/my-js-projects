@@ -1,0 +1,40 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+}
+
+.container {
+    text-transform: capitalize;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 7px;
+    padding: 0 1.2rem;
+    text-align: center;
+}
+
+
+.hexBtn {
+    border-radius: 7px;
+    text-transform: capitalize;
+    padding: 0.8rem 0.85rem;
+    background-color: rgb(0, 0, 0, 0.6);
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 1.2rem;
+    
+}
+
+.hex {
+    font-size: 3.5rem;
+}
+
+.hexBtn:hover {
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.05);
+}
