@@ -20,7 +20,7 @@ body {
 }
 
 
-.quote {
+.quote, h1 {
     font-size: 3rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
