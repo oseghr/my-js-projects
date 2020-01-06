@@ -1,0 +1,51 @@
+
+* {
+    font-family: 'Dosis', Helvetica, sans-serif;
+}
+
+hr {
+    border: 5px solid darkcyan;
+}
+
+#paragraph {
+    text-transform: uppercase;
+    letter-spacing: 0.8rem;
+    font-size: 1.2rem;
+}
+
+h1 {
+    color: darkcyan;
+}
+
+#root {
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+}
+
+.container {
+    margin: 1rem;
+}
+
+.card {
+    padding: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px 3px lightgray;
+    width: 25rem;
+    height: 13rem;
+}
+
+@media screen and (min-width: 600px) {
+    .card {
+        flex: 1 1 calc(50% - 2rem);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .card {
+        flex: 1 1 calc(33% - 2rem);
+    }
+}
