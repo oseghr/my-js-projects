@@ -1,3 +1,4 @@
+//target the body/button elemets
 const bodyBcg = document.querySelector("body");
 const quoteBtn = document.querySelector('.quoteBtn');
 const hex = document.querySelector('.hex');
@@ -6,7 +7,7 @@ const hexNumbers = [0,1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F'];
 const quote = document.querySelector('.quote');
 const author = document.querySelector('.author');
 
-
+//array objects of quotes
 const quoteObj = [
     {
         quotewords: '\“Never doubt that a small group of thoughtful, committed, citizens can change the world. Indeed, it is the only thing that ever has.\”',
