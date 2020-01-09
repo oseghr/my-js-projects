@@ -1,2 +1,2 @@
 # JS-Project
-Compilation of my JS projects
+simple applications built from studying and practice
