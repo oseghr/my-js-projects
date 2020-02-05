@@ -41,7 +41,7 @@ a {
 }
 
 h1 {
-    color: #e74c3c;
+    color: royalblue;
     margin-bottom: 0.5rem;
 }
 .container {
@@ -81,7 +81,7 @@ h1 {
 
 .card--link {
     text-decoration: none;
-    background: #db4938;
+    background: royalblue;
     color: #fff;
     padding: 0.3rem 1rem;
     border-radius: 20px;
