@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile Page</title>
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="profile.css">
+
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a class="logo" href="#default">Oseghr</a>
+            <div class="navbar-right">
+                
+                <a class="active" href="#home"><i class="material-icons">home</i></a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>             
+            </div>            
+        </div>
+ 
+    </header>
+
+    <!-- BANNER -->
+    <div class="container">
+
+        <img src="./images/banner.jpg" alt="Notebook" style="width: 100%;">
+        <div class="content">
+            <h1>Developer | Designer</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptate doloremque cumque obcaecati odio minus amet id molestias iusto impedit animi in magnam fuga necessitatibus, nemo culpa autem officiis! Quia?</p>
+        </div>
+    </div>
+
+
+    <!-- VIDEO -->
+
+    <div class="vid">
+        <video autoplay muted loop id="myVideo">
+            <source src="./images/video1.mp4" type="video/mp4">
+        </video>
+
+
+        <!-- Optional: some overlay text to describe the video -->
+        <div class="videocontent">
+            <h1>Sign Up Today!!!</h1>
+            <p>Lorem ipsum...</p>
+            <!-- Use a button to pause/play the video with JavaScript -->
+            <button id="myBtn" onclick="myFunction()">Pause</button>
+        </div>
+
+    </div>
+
+
+
+    
+    <!-- TEAMS -->
+
+    <div class="teams">
+        <div class="projects"> 
+            <div class="card">
+                <img src="./images/lamborghini-badge.jpg" alt="Avatar" style="width:100%">
+                <div class="contain">
+                    <h4><b>John Doe</b></h4>
+                    <i class="material-icons avatar">face</i>
+                    <p>Engineer</p> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/lamborghini_gallardo.jpg" alt="Avatar" style="width:100%">
+                <div class="contain">
+                    <h4><b>Jane Doe</b></h4>
+                    <i class="material-icons avatar">face</i>
+                    <p>Developer</p> 
+                </div>
+            </div>
+
+        </div>
+
+        <div class="projects">
+            <div class="card">
+                <img src="./images/lamborghini_aventador.jpg" alt="Avatar" style="width:100%">
+                <div class="contain">
+                    <h4><b>Nosa Doe</b></h4>
+                    <i class="material-icons avatar">face</i> 
+                    <p>Architect</p> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/lamborghini_urus.jpg" alt="Avatar" style="width:100%">
+                <div class="contain">
+                    <h4><b>Osa Doe</b></h4> 
+                    <i class="material-icons avatar">face</i>
+                    <p>Actor</p> 
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    
+
+
+
+<!-- FOOTER -->
+
+
+    <footer class="footer">
+        <h2>Vision 2020</h2>
+    </footer>
+
+
+    <script src="profile.js"></script>
+</body>
+</html>
