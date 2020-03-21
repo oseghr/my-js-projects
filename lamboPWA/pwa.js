@@ -1,5 +1,5 @@
 const container = document.querySelector(".container");
-const coffees = [
+const lambo = [
     {name: "Badge", image: "./img/lamborghini-badge.jpg"},
     {name: "Asterion", image: "./img/lamborghini_asterion.jpg"},
     {name: "Aventador", image: "./img/lamborghini_aventador.jpg"},
@@ -12,9 +12,9 @@ const coffees = [
     {name: "Countach", image: "./img/lamborghini_countach.jpg"},
     {name: "Jarama", image: "./img/lamborghini_jarama.jpg"},
 ];
-const showCoffees = function() {
+const showCars = function() {
     let output ="";
-    coffees.forEach(({name , image}) => {
+    lambo.forEach(({name , image}) => {
         output += `
             <div class="card">
             <img class="card--avatar" src=${image} />
@@ -25,4 +25,4 @@ const showCoffees = function() {
     })
     container.innerHTML = output;
 }
-document.addEventListener("DOMContentLoaded", showCoffees);
+document.addEventListener("DOMContentLoaded", showCars);
